@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<style>
+		 body {
+  display: grid;
+  min-height: 100vh;
+  align-content: center;
+  justify-content: center;
+}
+
+.button {
+  --padding: 1em;
+  --color: red;
+  display: inline-block;
+  font-size: 4em;
+  padding: var(--padding) calc(var(--padding) * 2);
+  background: var(--color);
+  border-radius: calc(var(--padding) / 2);
+  color: #fff;
+}
+
+.blue {
+  --color: blue;
+}
+
+.green {
+  --color: green;
+}
+
+.purple {
+  --color: purple;
+}
+
+.round {
+  border-radius: calc(var(--padding) * 2);
+}
+	</style>
+</head>
+<body>
+
+<div class="button radius">Hola mundo</div>
+</body>
+</html>

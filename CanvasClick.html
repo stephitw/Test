@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>CanvasClick</title>
+	<style>
+		canvas {
+			border: 5px solid chocolate;
+		}
+	</style>
+</head>
+<body>
+	<canvas id="Itpcanvas" height='350' width='350'>
+		
+	</canvas>
+<!-- 	<script>
+		window.onload = function(){
+			var Itpc = document.getElementById('Itpcanvas');
+			var context = Itpc.getContext('2d');
+			Itpc.addEventListener('mousedown', onDown, false);
+		}
+		function onDown(event){
+			cx = event.pageX;
+			cy = event.pageY;
+			alert("X,Y="+cx+','+cy);
+		}
+	</script> -->
+	<script>
+		var canvas = document.querySelector('canvas'); //we grab an element from HTML
+
+
+		canvas.width = '800';
+		canvas.height = '500';
+
+
+		var c = canvas.getContext('2d'); //there we can draw in 2d
+
+		var mouse = {
+			x: undefined,
+			y: undefined
+		}
+
+		canvas.addEventListener('mousedown', //to add intereactivity with the canvas (monitor mouse click=mousedown => add an anonymous function)
+		function(event) {  //=mousedown executes this function and we add an event argument
+		//console.log(event);
+			mouse.x = event.x;
+			mouse.y = event.y;
+			console.log(mouse);
+	}) 
+	</script>
+</body>
+</html>

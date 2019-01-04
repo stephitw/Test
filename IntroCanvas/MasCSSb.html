@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<style>
+		body {
+  counter-reset: contador 100;
+  animation: contar 30s forwards alternate infinite;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+  
+  body::after {
+    content: counter(contador);
+    font-size: 16em;
+  }
+  
+
+
+/*@keyframes contar {
+  @for $i from 100 through 1 {
+    #{$i}% {
+      counter-increment: contador #{-$i};
+      background: hsl($i * 3.6,100,40);
+      color: #fff;
+    }
+  }
+}*/
+	</style>
+</head>
+<body>
+	
+</body>
+</html>
