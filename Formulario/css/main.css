@@ -1,0 +1,170 @@
+#main{
+	overflow: auto;
+}
+
+
+
+#wrapper{
+	margin: auto;
+	width: 560px;
+	height: 540px;
+	padding: 5px;
+	border: 3px solid  #E0F0E8;
+	background-color: #F5FAF9;
+}
+
+*{
+	box-sizing: border-box;
+}
+.asterico{
+	color: red;
+}
+
+.guion{
+	color: #55917A;
+
+}
+
+/*data*/
+legend{
+
+	color: #55917A;
+    font-size: 1.4em;
+    font-family: sans-serif;
+    padding: 20px 0px 20px 5px;
+}
+
+h2{
+	border: 1px dashed #55917A;
+    background-color: #E0F0E8;
+    padding: 5px;
+    margin-bottom: 15px;
+    font-family: verdana;
+    font-size: 0.8em;
+}
+
+.normal{
+	background-color: #E0F0E8;
+    color: #55917A;
+    font-family: verdana;
+    font-size: 0.7em;
+    display: inline-block;
+    width: 200px;
+    text-align: right;
+	padding-bottom: 10px;
+    padding-top: 10px;
+    margin-bottom: 5px;
+
+}
+
+/*phone*/
+.phone{
+	background-color: #E0F0E8;
+    color: #55917A;
+    font-size: 0.8em;
+    display: inline-block;
+    width: 200px;
+    text-align: right;
+	padding-bottom: 12px;
+    padding-top: 12px;
+    margin-bottom: 5px;
+
+}
+
+.special{
+	
+    display: block;
+    color: #55917A;
+    font-size: 0.6em;
+    font-family: verdana;
+
+}
+
+/*inputs*/
+
+input{
+	border-color: #E0F0E8;
+    border-style: groove;
+    border-width: 0.5px;
+}
+.ccode{
+	    width:50px;
+
+}
+
+.citycode{
+	width: 40px;
+
+}
+
+.pnumber{
+		width: 155px;
+}
+
+#name, #mphone{
+	width: 230px;
+}
+#mail, #mail2{
+	width: 315px;
+
+}
+
+#padress{
+	width: 255px;
+	height:60px;
+}
+
+.grande{
+	padding-top: 25px;
+    padding-bottom: 25px;
+}
+#password, #repassword{
+	width: 160px;
+}
+
+
+li{
+	    display: inline-block;
+	    vertical-align: middle;
+
+}
+
+#Country{
+	width: 255px;
+    border-color: #E0F0E8;
+    border-style: groove;
+    font-family: verdana;
+    font-size: 0.8em;
+}
+p{
+	text-align: center;
+	color:  #617E78;
+}
+
+.term{
+	font-family: Verdana, Geneva, sans-serif;
+    font-size: 0.7em;
+    font-weight: bold;
+    margin-top: 5px;
+}
+
+/*botones*/
+
+.botones{
+	text-align: center;
+    padding: 10px;
+}
+
+button{
+	border-color: #5193bb;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 3px;
+    margin-left: 10px;
+    background-color: white;
+    -webkit-box-shadow: inset 0px 0px 5px 0px rgba(0,0,0,0.5);
+    -moz-box-shadow: inset 0px 0px 5px 0px rgba(0,0,0,0.5);
+    box-shadow: inset 0px 0px 5px 0px rgba(0,0,0,0.5);
+
+
+}

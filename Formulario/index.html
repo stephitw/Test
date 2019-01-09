@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<link type="text/css" rel="stylesheet" href="css/reset.css">
+	<link type="text/css" rel="stylesheet" href="css/main.css">
+	<!-- <style>
+		ul li {
+			overflow: auto;
+		}
+
+		ul li label {
+			float: left;
+		}
+
+		ul li input {
+			
+		}
+
+		ul.terms li{
+			display: inline-block;
+		}
+
+		ul.terms, .botones {
+			text-align: center;
+		}
+
+	</style> -->
+</head>
+<body>
+	<div id="wrapper">
+		
+	<main>
+		<form method="post" action="index.php">	
+
+		<fieldset>
+
+			<legend>Register - Create Account</legend>
+			<h2>Field marked with <span class="asterico">*</span>are compulsory fields</h2>
+
+		<ul class="data">
+						<li>
+							<label class="normal" for="name"><span class="asterico">*</span>Your Name</label>
+							<input type="text" id="name" name="name"/>
+
+						</li>
+
+						<li>
+							<label class="normal" for="mail"><span class="asterico">*</span>E-Mail ID</label>
+							<input type="text" id="mail" name="mail"/>
+
+						</li>
+
+						<li>
+							<label class="normal" for="mail2">Alternate E-Mail ID</label>
+							<input type="text" id="mail2" name="mail2"/>
+
+						</li>
+
+		</ul>
+
+		<ul>
+			
+						<li>
+							<p class="phone">Your Phone</p>
+						</li>
+				
+					
+						<li >
+							<label class="special" for="ccode">Country code -</label>
+							<input class="ccode" type="text" id="ccode" name="ccode" />
+							<span class="guion">-</span>
+
+
+						</li>
+						
+
+						<li>
+							<label class="special" for="citycode">City code -</label>
+							<input class="citycode" type="text" id="citycode" name="citycode"/>
+							<span class="guion">-</span>
+
+						</li>
+
+
+						<li>
+							<label class="special" for="pnumber">Phone Number</label>
+							<input class="pnumber" type="text" id="pnumber" name="pnumber"/>
+
+
+						</li>
+
+
+		</ul>
+				
+
+		<ul>
+
+						<li>
+							<label class="normal" for="mphone">Mobile Phone</label>
+							<input type="text" id="mphone" name="mphone"/>
+
+						</li>
+
+						<li>
+							<label class="normal grande" for="padress"><span class="asterico">*</span>Your Postal Adress</label>
+							<input type="text" id="padress" name="padress"/>
+
+						</li>
+
+						<li>
+							<label class="normal" for="Country"><span class="asterico">*</span>Country</label>
+								<select id="Country" name="Country">
+									<option value="Nothing">------------- Select One -------------</option>
+									<option value="Spain">Spain</option>
+									<option value="France">France</option>
+									<option value="Germany">Germany</option>
+									<option value="Italy">Italy</option>
+								</select>
+
+						</li>
+
+						<li>
+							<label class="normal" for="password"><span class="asterico">*</span>Password</label>
+							<input type="password" id="password" name="password"/>
+
+						</li>
+
+						<li>
+							<label class="normal" for="repassword"><span class="asterico">*</span>Re-Enter Password</label>
+							<input type="password" id="repassword" name="repassword"/>
+
+						</li>
+
+		</ul>
+		<ul class="terms">
+			<li><input type="checkbox" name="terms" value="" id="terms" /></li>
+			<li><label for="terms">I accept the <a href="#">Terms of Use</a></label></li>
+		</ul>
+		
+		<div class="botones">
+		<button type="submit" value="Submit">Continue >></button>
+  		<button type="reset" value="Reset">Reset</button>
+  		</div>
+
+  	</fieldset>
+  </form>
+
+</main>
+</div>
+</body>
+</html>
